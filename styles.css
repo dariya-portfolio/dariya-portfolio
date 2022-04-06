@@ -60,23 +60,23 @@ section{
 }
 .two{
     background: linear-gradient(rgb(135, 196, 246),rgb(142, 218, 205));
-    color:var(--background-color);
+    color:var(--separator);
 }
 .three{
     background: linear-gradient(rgb(142, 218, 205),rgb(233, 142, 195)) ;
-    color: var(--bleu);
+    color: var(--separator);
 }
 .four{
     background: linear-gradient(rgb(233, 142, 195),rgb(137, 142, 211));
-    color: rgb(103, 109, 182);
+    color: var(--separator);
 }
 .five{
     background: linear-gradient(rgb(137, 142, 211),rgb(135, 196, 246));
-    color: var(--bleu);
+    color: var(--separator);
 }
 .six{
     background: linear-gradient(rgb(135, 196, 246),rgb(142, 218, 205));
-    color:var(--background-color);;
+    color:var(--separator);;
 }
 .seven{
     background: linear-gradient(rgb(142, 218, 205),rgb(233, 142, 195));
@@ -206,6 +206,7 @@ section{
         grid-area: 2 / 1 / 9 / 10;
         border-right: 2px solid var(--separator) ;
         margin-left: 80px;
+        
        
     }
     .middle img{
