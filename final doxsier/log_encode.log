@@ -1,0 +1,618 @@
+ffmpeg version 5.0-essentials_build-www.gyan.dev Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11.2.0 (Rev5, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-libass --enable-libfreetype --enable-libfribidi --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libmfx --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/25dar/AppData/Local/Temp/KritaFFmpegProgress.BAcvFK'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame%04d.png'.
+Reading option '-crf' ... matched as AVOption 'crf' with argument '23'.
+Reading option '-preset' ... matched as AVOption 'preset' with argument 'medium'.
+Reading option '-profile:v' ... matched as option 'profile' (set profile) with argument 'baseline'.
+Reading option '-pix_fmt' ... matched as option 'pix_fmt' (set pixel format) with argument 'yuv420p'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/HAND animation v finale.mp4' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/25dar/AppData/Local/Temp/KritaFFmpegProgress.BAcvFK.
+[file @ 000002837989ba80] Setting default whitelist 'file,crypto,data'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame%04d.png.
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0000.png' for reading
+[file @ 00000283798df0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000283798e7200] Statistics: 2310410 bytes read, 0 seeks
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0001.png' for reading
+[file @ 00000283798e7540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000283798e66c0] Statistics: 2310410 bytes read, 0 seeks
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0002.png' for reading
+[file @ 00000283798e66c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000283798e67c0] Statistics: 2310410 bytes read, 0 seeks
+[image2 @ 00000283798dbf00] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame%04d.png':
+  Duration: 00:00:04.64, start: 0.000000, bitrate: N/A
+  Stream #0:0, 3, 1/25: Video: png, 1 reference frame, rgba(pc), 1756x1240 [SAR 11811:11811 DAR 439:310], 0/1, 25 fps, 25 tbr, 25 tbn
+Successfully opened the file.
+Parsing a group of options: output url C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/HAND animation v finale.mp4.
+Applying option profile:v (set profile) with argument baseline.
+Applying option pix_fmt (set pixel format) with argument yuv420p.
+Successfully parsed a group of options.
+Opening an output file: C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/HAND animation v finale.mp4.
+[file @ 00000283798e1940] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 4 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 3 times
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0003.png' for reading
+[file @ 0000028379961300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000028379969480] Statistics: 2310410 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0004.png' for reading
+[file @ 000002837bfa00c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837996cfc0] Statistics: 2310410 bytes read, 0 seeks
+[graph 0 input from stream 0:0 @ 000002837996de00] Setting 'video_size' to value '1756x1240'
+[graph 0 input from stream 0:0 @ 000002837996de00] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000002837996de00] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 000002837996de00] Setting 'pixel_aspect' to value '11811/11811'
+[graph 0 input from stream 0:0 @ 000002837996de00] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 000002837996de00] w:1756 h:1240 pixfmt:rgba tb:1/24 fr:24/1 sar:11811/11811
+[format @ 0000028379930880] Setting 'pix_fmts' to value 'yuv420p'
+[auto_scale_0 @ 0000028379930d00] w:iw h:ih flags:'' interl:0
+[format @ 0000028379930880] auto-inserting filter 'auto_scale_0' between the filter 'Parsed_null_0' and the filter 'format'
+[AVFilterGraph @ 000002837996d080] query_formats: 4 queried, 3 merged, 1 already done, 0 delayed
+[auto_scale_0 @ 0000028379930d00] w:1756 h:1240 fmt:rgba sar:11811/11811 -> w:1756 h:1240 fmt:yuv420p sar:1/1 flags:0x0
+[libx264 @ 00000283798df180] using mv_range_thread = 104
+[libx264 @ 00000283798df180] using SAR=1/1
+[libx264 @ 00000283798df180] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 00000283798df180] profile Constrained Baseline, level 4.2, 4:2:0, 8-bit
+[libx264 @ 00000283798df180] 264 - core 164 r3081 19856cc - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=0 ref=3 deblock=1:0:0 analyse=0x1:0x111 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=24 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/HAND animation v finale.mp4':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0, 0, 1/12288: Video: h264, 1 reference frame (avc1 / 0x31637661), yuv420p(tv, progressive), 1756x1240 (0x0) [SAR 1:1 DAR 439:310], 0/1, q=2-31, 24 fps, 12288 tbn
+    Metadata:
+      encoder         : Lavc59.18.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+Clipping frame in rate conversion by 0.000008
+frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0005.png' for reading
+[file @ 000002837d51a380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f2b0e80] Statistics: 2310410 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0006.png' for reading
+[file @ 000002837d51b380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837c15a540] Statistics: 339745 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0007.png' for reading
+[file @ 000002837d51a880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000283798e7500] Statistics: 339745 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0008.png' for reading
+[file @ 000002837d519b80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000283798e7500] Statistics: 339745 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0009.png' for reading
+[file @ 000002837d51a080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000283798e7500] Statistics: 340088 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0010.png' for reading
+[file @ 000002837d519e80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f42cf80] Statistics: 340088 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0011.png' for reading
+[file @ 000002837d519b80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f42cf80] Statistics: 340088 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0012.png' for reading
+[file @ 000002837d51aa80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f42cf80] Statistics: 340088 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0013.png' for reading
+[file @ 000002837d51a080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000283798e7500] Statistics: 340088 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0014.png' for reading
+[file @ 000002837d519c80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000283798e7500] Statistics: 340088 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0015.png' for reading
+[file @ 000002837d519e80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339756 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0016.png' for reading
+[file @ 000002837d51ab80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339756 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0017.png' for reading
+[file @ 000002837d51b580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339756 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0018.png' for reading
+[file @ 000002837d51aa80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 340088 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0019.png' for reading
+[file @ 000002837d51a680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 340088 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0020.png' for reading
+[file @ 000002837d51a280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 340088 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0021.png' for reading
+[file @ 000002837d519780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339756 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0022.png' for reading
+[file @ 000002837d519780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339756 bytes read, 0 seeks
+frame=   19 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0023.png' for reading
+[file @ 000002837d51a580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339756 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0024.png' for reading
+[file @ 000002837d51ab80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 459643 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0025.png' for reading
+[file @ 000002837d519c80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 459643 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0026.png' for reading
+[file @ 000002837d51af80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 459643 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0027.png' for reading
+[file @ 000002837d519e80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 627575 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0028.png' for reading
+[file @ 000002837d51a080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 627575 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0029.png' for reading
+[file @ 000002837d51af80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 627575 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0030.png' for reading
+[file @ 000002837d51a780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 687194 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0031.png' for reading
+[file @ 000002837d51a880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 687194 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0032.png' for reading
+[file @ 000002837d51a880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 687194 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0033.png' for reading
+[file @ 000002837d51ac80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 783804 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0034.png' for reading
+[file @ 000002837d51b280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 783804 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0035.png' for reading
+[file @ 000002837d519c80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 783804 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0036.png' for reading
+[file @ 000002837d519e80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 727574 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0037.png' for reading
+[file @ 000002837d519780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 727574 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0038.png' for reading
+[file @ 000002837d51b580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 727574 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0039.png' for reading
+[file @ 000002837d51a080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 783804 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0040.png' for reading
+[file @ 000002837d51b580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 783804 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0041.png' for reading
+[file @ 000002837d519780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 783804 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0042.png' for reading
+[file @ 000002837d51a880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339393 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0043.png' for reading
+[file @ 000002837d51a380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339393 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0044.png' for reading
+[file @ 000002837d51a780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339393 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0045.png' for reading
+[file @ 000002837d51aa80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339053 bytes read, 0 seeks
+frame=   42 fps= 41 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0046.png' for reading
+[file @ 000002837d51a080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339053 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0047.png' for reading
+[file @ 000002837d519880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339053 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0048.png' for reading
+[file @ 000002837d51a780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339393 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0049.png' for reading
+[file @ 000002837d51b580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339393 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0050.png' for reading
+[file @ 000002837d51a080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339393 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0051.png' for reading
+[file @ 000002837d51b580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339053 bytes read, 0 seeks
+[libx264 @ 00000283798df180] scene cut at 6 Icost:422713 Pcost:419146 ratio:0.0084 bias:0.0250 gop:6 (imb:8171 pmb:37)
+[libx264 @ 00000283798df180] frame=   0 QP=18.41 NAL=3 Slice:I Poc:0   I:8580 P:0    SKIP:0    size=105877 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0052.png' for reading
+[file @ 000002837d51a480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 339053 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=   1 QP=18.83 NAL=2 Slice:P Poc:2   I:29   P:1331 SKIP:7220 size=3241 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0053.png' for reading
+[file @ 000002837d51a280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f4e6f00] Statistics: 339053 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=   2 QP=18.97 NAL=2 Slice:P Poc:4   I:5    P:410  SKIP:8165 size=1099 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0054.png' for reading
+[file @ 000002837d51a880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837bfbdac0] Statistics: 338877 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=   3 QP=19.02 NAL=2 Slice:P Poc:6   I:1    P:157  SKIP:8422 size=476 bytes
+frame=   51 fps= 33 q=28.0 size=       0kB time=00:00:00.12 bitrate=   3.1kbits/s speed=0.0798x    [image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0055.png' for reading
+[file @ 000002837d519980] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f4e6f00] Statistics: 338877 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=   4 QP=19.84 NAL=2 Slice:P Poc:8   I:1    P:71   SKIP:8508 size=232 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0056.png' for reading
+[file @ 000002837d51a780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 338877 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=   5 QP=19.92 NAL=2 Slice:P Poc:10  I:0    P:18   SKIP:8562 size=74 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0057.png' for reading
+[file @ 000002837d51ab80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 334915 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=   6 QP=9.58 NAL=2 Slice:I Poc:12  I:8580 P:0    SKIP:0    size=47661 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0058.png' for reading
+[file @ 000002837d51a080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 334915 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=   7 QP=17.68 NAL=2 Slice:P Poc:14  I:3    P:45   SKIP:8532 size=185 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0059.png' for reading
+[file @ 000002837d51ac80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 334915 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=   8 QP=17.81 NAL=2 Slice:P Poc:16  I:3    P:9    SKIP:8568 size=59 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0060.png' for reading
+[file @ 000002837d51ad80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 310025 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=   9 QP=18.81 NAL=2 Slice:P Poc:18  I:2    P:7    SKIP:8571 size=189 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0061.png' for reading
+[file @ 000002837d519780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 310025 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  10 QP=13.31 NAL=2 Slice:P Poc:20  I:0    P:3    SKIP:8577 size=25 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0062.png' for reading
+[file @ 000002837d51ab80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 310025 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  11 QP=13.31 NAL=2 Slice:P Poc:22  I:0    P:2    SKIP:8578 size=21 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0063.png' for reading
+[file @ 000002837d51a880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 315566 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  12 QP=14.03 NAL=2 Slice:P Poc:24  I:0    P:4    SKIP:8576 size=29 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0064.png' for reading
+[file @ 000002837d519980] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 315566 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  13 QP=13.31 NAL=2 Slice:P Poc:26  I:0    P:2    SKIP:8578 size=21 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0065.png' for reading
+[file @ 000002837d51af80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 315566 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  14 QP=11.00 NAL=2 Slice:P Poc:28  I:0    P:0    SKIP:8580 size=12 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0066.png' for reading
+[file @ 000002837d51b180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 284444 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  15 QP=20.33 NAL=2 Slice:P Poc:30  I:3    P:2    SKIP:8575 size=185 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0067.png' for reading
+[file @ 000002837d519980] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 284444 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  16 QP=11.00 NAL=2 Slice:P Poc:32  I:0    P:1    SKIP:8579 size=16 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0068.png' for reading
+[file @ 000002837d519780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 284444 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  17 QP=11.00 NAL=2 Slice:P Poc:34  I:0    P:0    SKIP:8580 size=12 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0069.png' for reading
+[file @ 000002837d51ac80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 246846 bytes read, 0 seeks
+[libx264 @ 00000283798df180] scene cut at 24 Icost:605639 Pcost:602232 ratio:0.0056 bias:0.1000 gop:24 (imb:8180 pmb:28)
+[libx264 @ 00000283798df180] frame=  18 QP=22.64 NAL=2 Slice:P Poc:36  I:4    P:1    SKIP:8575 size=148 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0070.png' for reading
+[file @ 000002837d51b480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 246846 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  19 QP=11.00 NAL=2 Slice:P Poc:38  I:0    P:2    SKIP:8578 size=17 bytes
+frame=   67 fps= 32 q=25.0 size=       0kB time=00:00:00.79 bitrate=   0.5kbits/s speed=0.382x    [image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0071.png' for reading
+[file @ 000002837d51b380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 246846 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  20 QP=11.00 NAL=2 Slice:P Poc:40  I:0    P:0    SKIP:8580 size=12 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0072.png' for reading
+[file @ 000002837d51b380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 242470 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  21 QP=22.64 NAL=2 Slice:P Poc:42  I:3    P:2    SKIP:8575 size=160 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0073.png' for reading
+[file @ 000002837d51a380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 242470 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  22 QP=12.00 NAL=2 Slice:P Poc:44  I:0    P:1    SKIP:8579 size=16 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0074.png' for reading
+[file @ 000002837d519780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 242470 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  23 QP=13.00 NAL=2 Slice:P Poc:46  I:0    P:0    SKIP:8580 size=12 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0075.png' for reading
+[file @ 000002837d519c80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2299206 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  24 QP=11.28 NAL=3 Slice:I Poc:0   I:8580 P:0    SKIP:0    size=54660 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0076.png' for reading
+[file @ 000002837d519c80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2299206 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  25 QP=18.59 NAL=2 Slice:P Poc:2   I:7    P:85   SKIP:8488 size=326 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0077.png' for reading
+[file @ 000002837d51a980] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2299206 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  26 QP=14.59 NAL=2 Slice:P Poc:4   I:4    P:2    SKIP:8574 size=37 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0078.png' for reading
+[file @ 000002837d51a780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2062791 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  27 QP=17.95 NAL=2 Slice:P Poc:6   I:996  P:786  SKIP:6798 size=24245 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0079.png' for reading
+[file @ 000002837d519c80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2062791 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  28 QP=16.62 NAL=2 Slice:P Poc:8   I:15   P:235  SKIP:8330 size=742 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0080.png' for reading
+[file @ 000002837d51a280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2062791 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  29 QP=16.31 NAL=2 Slice:P Poc:10  I:5    P:46   SKIP:8529 size=178 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0081.png' for reading
+[file @ 000002837d519980] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2051709 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  30 QP=16.21 NAL=2 Slice:P Poc:12  I:1147 P:888  SKIP:6545 size=29897 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0082.png' for reading
+[file @ 000002837d51a380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2051709 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  31 QP=15.97 NAL=2 Slice:P Poc:14  I:39   P:315  SKIP:8226 size=1098 bytes
+frame=   79 fps= 31 q=28.0 size=     256kB time=00:00:01.29 bitrate=1623.8kbits/s speed= 0.5x    [image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0083.png' for reading
+[file @ 000002837d519980] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2051709 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  32 QP=15.26 NAL=2 Slice:P Poc:16  I:4    P:93   SKIP:8483 size=304 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0084.png' for reading
+[file @ 000002837d51a380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2290085 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  33 QP=19.00 NAL=2 Slice:P Poc:18  I:953  P:726  SKIP:6901 size=34468 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0085.png' for reading
+[file @ 000002837d51a780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2290085 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  34 QP=17.91 NAL=2 Slice:P Poc:20  I:7    P:327  SKIP:8246 size=1001 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0086.png' for reading
+[file @ 000002837d519c80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2290085 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  35 QP=16.39 NAL=2 Slice:P Poc:22  I:7    P:102  SKIP:8471 size=343 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0087.png' for reading
+[file @ 000002837d51a280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2355388 bytes read, 0 seeks
+[libx264 @ 00000283798df180] scene cut at 42 Icost:423269 Pcost:421664 ratio:0.0038 bias:0.0750 gop:18 (imb:8192 pmb:16)
+[libx264 @ 00000283798df180] frame=  36 QP=13.05 NAL=2 Slice:P Poc:24  I:559  P:197  SKIP:7824 size=2337 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0088.png' for reading
+[file @ 000002837d519e80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2355388 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  37 QP=16.76 NAL=2 Slice:P Poc:26  I:6    P:68   SKIP:8506 size=240 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0089.png' for reading
+[file @ 000002837d51a380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2355388 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  38 QP=14.98 NAL=2 Slice:P Poc:28  I:4    P:45   SKIP:8531 size=169 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0090.png' for reading
+[file @ 000002837d51b380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2394529 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  39 QP=19.20 NAL=2 Slice:P Poc:30  I:593  P:100  SKIP:7887 size=9006 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0091.png' for reading
+[file @ 000002837d519980] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2394529 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  40 QP=16.26 NAL=2 Slice:P Poc:32  I:11   P:92   SKIP:8477 size=288 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0092.png' for reading
+[file @ 000002837d519780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2394529 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  41 QP=16.81 NAL=2 Slice:P Poc:34  I:3    P:13   SKIP:8564 size=56 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0093.png' for reading
+[file @ 000002837d519980] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2355546 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  42 QP=9.52 NAL=2 Slice:I Poc:36  I:8580 P:0    SKIP:0    size=48990 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0094.png' for reading
+[file @ 000002837d51a680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2355546 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  43 QP=19.27 NAL=2 Slice:P Poc:38  I:4    P:28   SKIP:8548 size=134 bytes
+frame=   91 fps= 29 q=28.0 size=     256kB time=00:00:01.79 bitrate=1170.7kbits/s speed=0.572x    [image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0095.png' for reading
+[file @ 000002837d51b280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2355546 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  44 QP=21.23 NAL=2 Slice:P Poc:40  I:4    P:3    SKIP:8573 size=45 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0096.png' for reading
+[file @ 000002837d51ac80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2356781 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  45 QP=21.26 NAL=2 Slice:P Poc:42  I:6    P:4    SKIP:8570 size=206 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0097.png' for reading
+[file @ 000002837d519e80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2356781 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  46 QP=21.23 NAL=2 Slice:P Poc:44  I:4    P:0    SKIP:8576 size=32 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0098.png' for reading
+[file @ 000002837d51a080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2356781 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  47 QP=21.98 NAL=2 Slice:P Poc:46  I:4    P:0    SKIP:8576 size=33 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0099.png' for reading
+[file @ 000002837d51a580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2356781 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  48 QP=19.74 NAL=2 Slice:P Poc:48  I:7    P:5    SKIP:8568 size=206 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0100.png' for reading
+[file @ 000002837d51a280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2356781 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  49 QP=21.98 NAL=2 Slice:P Poc:50  I:4    P:0    SKIP:8576 size=33 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0101.png' for reading
+[file @ 000002837d519880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2577907 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  50 QP=22.78 NAL=2 Slice:P Poc:52  I:4    P:0    SKIP:8576 size=32 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0102.png' for reading
+[file @ 000002837d51a480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2352386 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  51 QP=23.50 NAL=2 Slice:P Poc:54  I:7    P:3    SKIP:8570 size=225 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0103.png' for reading
+[file @ 000002837d519780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2352386 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  52 QP=24.28 NAL=2 Slice:P Poc:56  I:4    P:0    SKIP:8576 size=27 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0104.png' for reading
+[file @ 000002837d51a980] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2352386 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  53 QP=21.94 NAL=2 Slice:P Poc:58  I:2    P:2    SKIP:8576 size=33 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0105.png' for reading
+[file @ 000002837d519880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2437448 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  54 QP=21.10 NAL=2 Slice:P Poc:60  I:308  P:520  SKIP:7752 size=7046 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0106.png' for reading
+[file @ 000002837d519e80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2437448 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  55 QP=16.88 NAL=2 Slice:P Poc:62  I:19   P:93   SKIP:8468 size=329 bytes
+frame=  103 fps= 28 q=28.0 size=     256kB time=00:00:02.29 bitrate= 915.3kbits/s speed=0.628x    [image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0107.png' for reading
+[file @ 000002837d519880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2353191 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  56 QP=13.90 NAL=2 Slice:P Poc:64  I:2    P:16   SKIP:8562 size=76 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0108.png' for reading
+[file @ 000002837d519b80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2319893 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  57 QP=18.75 NAL=2 Slice:P Poc:66  I:168  P:80   SKIP:8332 size=1668 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0109.png' for reading
+[file @ 000002837d51ad80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2319893 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  58 QP=13.16 NAL=2 Slice:P Poc:68  I:2    P:4    SKIP:8574 size=36 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0110.png' for reading
+[file @ 000002837d51a580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2319893 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  59 QP=19.78 NAL=2 Slice:P Poc:70  I:1    P:5    SKIP:8574 size=41 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0111.png' for reading
+[file @ 000002837d51a380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2334548 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  60 QP=15.22 NAL=2 Slice:P Poc:72  I:408  P:164  SKIP:8008 size=13531 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0112.png' for reading
+[file @ 000002837d51ad80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2334548 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  61 QP=16.84 NAL=2 Slice:P Poc:74  I:7    P:36   SKIP:8537 size=161 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0113.png' for reading
+[file @ 000002837d51aa80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2375281 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  62 QP=14.44 NAL=2 Slice:P Poc:76  I:0    P:6    SKIP:8574 size=34 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0114.png' for reading
+[file @ 000002837d51ac80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2378753 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  63 QP=16.38 NAL=2 Slice:P Poc:78  I:193  P:115  SKIP:8272 size=5297 bytes
+[image2 @ 00000283798dbf00] Opening 'C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame0115.png' for reading
+[file @ 000002837d51a780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002837f41d040] Statistics: 2378753 bytes read, 0 seeks
+[libx264 @ 00000283798df180] frame=  64 QP=12.96 NAL=2 Slice:P Poc:80  I:3    P:13   SKIP:8564 size=61 bytes
+[libx264 @ 00000283798df180] frame=  65 QP=6.12 NAL=2 Slice:P Poc:82  I:2    P:0    SKIP:8578 size=21 bytes
+frame=  113 fps= 27 q=28.0 size=     256kB time=00:00:02.70 bitrate= 774.5kbits/s speed=0.652x    [libx264 @ 00000283798df180] frame=  66 QP=16.03 NAL=2 Slice:P Poc:84  I:414  P:116  SKIP:8050 size=10617 bytes
+[libx264 @ 00000283798df180] frame=  67 QP=13.97 NAL=2 Slice:P Poc:86  I:6    P:27   SKIP:8547 size=119 bytes
+[libx264 @ 00000283798df180] frame=  68 QP=11.00 NAL=2 Slice:P Poc:88  I:0    P:4    SKIP:8576 size=25 bytes
+[out_0_0 @ 0000028379930780] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[libx264 @ 00000283798df180] scene cut at 75 Icost:1162881 Pcost:1156500 ratio:0.0055 bias:0.1358 gop:51 (imb:8163 pmb:45)
+[libx264 @ 00000283798df180] frame=  69 QP=13.91 NAL=2 Slice:P Poc:90  I:284  P:164  SKIP:8132 size=6820 bytes
+[libx264 @ 00000283798df180] frame=  70 QP=9.28 NAL=2 Slice:P Poc:92  I:9    P:16   SKIP:8555 size=80 bytes
+[libx264 @ 00000283798df180] frame=  71 QP=11.71 NAL=2 Slice:P Poc:94  I:1    P:2    SKIP:8577 size=26 bytes
+[libx264 @ 00000283798df180] frame=  72 QP=19.47 NAL=2 Slice:P Poc:96  I:296  P:149  SKIP:8135 size=6363 bytes
+[libx264 @ 00000283798df180] frame=  73 QP=12.03 NAL=2 Slice:P Poc:98  I:8    P:16   SKIP:8556 size=92 bytes
+[libx264 @ 00000283798df180] frame=  74 QP=13.00 NAL=2 Slice:P Poc:100 I:1    P:1    SKIP:8578 size=21 bytes
+[libx264 @ 00000283798df180] scene cut at 84 Icost:1374832 Pcost:1365274 ratio:0.0070 bias:0.0375 gop:9 (imb:7793 pmb:415)
+[libx264 @ 00000283798df180] frame=  75 QP=16.96 NAL=3 Slice:I Poc:0   I:8580 P:0    SKIP:0    size=87590 bytes
+[libx264 @ 00000283798df180] frame=  76 QP=20.71 NAL=2 Slice:P Poc:2   I:6    P:949  SKIP:7625 size=2174 bytes
+[libx264 @ 00000283798df180] frame=  77 QP=20.85 NAL=2 Slice:P Poc:4   I:0    P:47   SKIP:8533 size=162 bytes
+[libx264 @ 00000283798df180] frame=  78 QP=18.08 NAL=2 Slice:P Poc:6   I:4675 P:3898 SKIP:7    size=68028 bytes
+[libx264 @ 00000283798df180] frame=  79 QP=18.98 NAL=2 Slice:P Poc:8   I:20   P:2805 SKIP:5755 size=6214 bytes
+[libx264 @ 00000283798df180] frame=  80 QP=19.24 NAL=2 Slice:P Poc:10  I:8    P:911  SKIP:7661 size=2228 bytes
+[libx264 @ 00000283798df180] frame=  81 QP=19.33 NAL=2 Slice:P Poc:12  I:471  P:2379 SKIP:5730 size=18028 bytes
+[libx264 @ 00000283798df180] frame=  82 QP=19.70 NAL=2 Slice:P Poc:14  I:11   P:963  SKIP:7606 size=2417 bytes
+[libx264 @ 00000283798df180] frame=  83 QP=20.07 NAL=2 Slice:P Poc:16  I:1    P:115  SKIP:8464 size=357 bytes
+[libx264 @ 00000283798df180] frame=  84 QP=14.20 NAL=2 Slice:I Poc:18  I:8580 P:0    SKIP:0    size=138295 bytes
+[libx264 @ 00000283798df180] frame=  85 QP=16.58 NAL=2 Slice:P Poc:20  I:1    P:875  SKIP:7704 size=2159 bytes
+[libx264 @ 00000283798df180] frame=  86 QP=16.98 NAL=2 Slice:P Poc:22  I:0    P:134  SKIP:8446 size=437 bytes
+[libx264 @ 00000283798df180] frame=  87 QP=17.69 NAL=2 Slice:P Poc:24  I:1279 P:1388 SKIP:5913 size=37361 bytes
+[libx264 @ 00000283798df180] frame=  88 QP=17.54 NAL=2 Slice:P Poc:26  I:2    P:494  SKIP:8084 size=1365 bytes
+[libx264 @ 00000283798df180] frame=  89 QP=17.55 NAL=2 Slice:P Poc:28  I:0    P:162  SKIP:8418 size=499 bytes
+[libx264 @ 00000283798df180] frame=  90 QP=21.54 NAL=2 Slice:P Poc:30  I:345  P:1274 SKIP:6961 size=17973 bytes
+[libx264 @ 00000283798df180] frame=  91 QP=20.02 NAL=2 Slice:P Poc:32  I:0    P:221  SKIP:8359 size=652 bytes
+[libx264 @ 00000283798df180] frame=  92 QP=18.84 NAL=2 Slice:P Poc:34  I:0    P:88   SKIP:8492 size=289 bytes
+[libx264 @ 00000283798df180] frame=  93 QP=18.63 NAL=2 Slice:P Poc:36  I:874  P:1227 SKIP:6479 size=35359 bytes
+[libx264 @ 00000283798df180] frame=  94 QP=18.48 NAL=2 Slice:P Poc:38  I:3    P:432  SKIP:8145 size=1233 bytes
+[libx264 @ 00000283798df180] frame=  95 QP=18.60 NAL=2 Slice:P Poc:40  I:0    P:208  SKIP:8372 size=614 bytes
+[libx264 @ 00000283798df180] frame=  96 QP=19.23 NAL=2 Slice:P Poc:42  I:63   P:328  SKIP:8189 size=3396 bytes
+[libx264 @ 00000283798df180] frame=  97 QP=19.01 NAL=2 Slice:P Poc:44  I:1    P:268  SKIP:8311 size=746 bytes
+[libx264 @ 00000283798df180] frame=  98 QP=19.18 NAL=2 Slice:P Poc:46  I:0    P:124  SKIP:8456 size=396 bytes
+[libx264 @ 00000283798df180] frame=  99 QP=19.63 NAL=2 Slice:P Poc:48  I:0    P:102  SKIP:8478 size=325 bytes
+[libx264 @ 00000283798df180] frame= 100 QP=21.40 NAL=2 Slice:P Poc:50  I:0    P:15   SKIP:8565 size=64 bytes
+[libx264 @ 00000283798df180] frame= 101 QP=20.24 NAL=2 Slice:P Poc:52  I:6360 P:1967 SKIP:253  size=81816 bytes
+[libx264 @ 00000283798df180] frame= 102 QP=19.38 NAL=2 Slice:P Poc:54  I:1903 P:1866 SKIP:4811 size=31223 bytes
+[libx264 @ 00000283798df180] frame= 103 QP=19.02 NAL=2 Slice:P Poc:56  I:20   P:676  SKIP:7884 size=1716 bytes
+[libx264 @ 00000283798df180] frame= 104 QP=18.96 NAL=2 Slice:P Poc:58  I:11   P:204  SKIP:8365 size=621 bytes
+[libx264 @ 00000283798df180] frame= 105 QP=21.22 NAL=2 Slice:P Poc:60  I:2920 P:821  SKIP:4839 size=71414 bytes
+[libx264 @ 00000283798df180] frame= 106 QP=19.18 NAL=2 Slice:P Poc:62  I:16   P:588  SKIP:7976 size=1786 bytes
+[libx264 @ 00000283798df180] frame= 107 QP=19.49 NAL=2 Slice:P Poc:64  I:1395 P:2924 SKIP:4261 size=31728 bytes
+[libx264 @ 00000283798df180] frame= 108 QP=19.32 NAL=2 Slice:P Poc:66  I:1057 P:1577 SKIP:5946 size=27994 bytes
+[libx264 @ 00000283798df180] frame= 109 QP=19.12 NAL=2 Slice:P Poc:68  I:4    P:608  SKIP:7968 size=1607 bytes
+[libx264 @ 00000283798df180] frame= 110 QP=18.92 NAL=2 Slice:P Poc:70  I:1    P:298  SKIP:8281 size=805 bytes
+[libx264 @ 00000283798df180] frame= 111 QP=20.29 NAL=2 Slice:P Poc:72  I:77   P:249  SKIP:8254 size=2700 bytes
+[libx264 @ 00000283798df180] frame= 112 QP=19.40 NAL=2 Slice:P Poc:74  I:1    P:93   SKIP:8486 size=307 bytes
+[libx264 @ 00000283798df180] frame= 113 QP=21.64 NAL=2 Slice:P Poc:76  I:1138 P:3124 SKIP:4318 size=27943 bytes
+[libx264 @ 00000283798df180] frame= 114 QP=21.12 NAL=2 Slice:P Poc:78  I:568  P:1059 SKIP:6953 size=10951 bytes
+[libx264 @ 00000283798df180] frame= 115 QP=19.85 NAL=2 Slice:P Poc:80  I:4    P:104  SKIP:8472 size=305 bytes
+frame=  116 fps= 19 q=-1.0 Lsize=    1118kB time=00:00:04.79 bitrate=1911.4kbits/s speed=0.791x    
+[AVIOContext @ 00000283798dbc40] Statistics: 1900 bytes written, 0 seeks, 10 writeouts
+video:1117kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.117530%
+Input file #0 (C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/frame%04d.png):
+  Input stream #0:0 (video): 116 packets read (137316291 bytes); 116 frames decoded; 
+  Total: 116 packets (137316291 bytes) demuxed
+Output file #0 (C:/Users/25dar/OneDrive/Bureau/Art school/final doxsier/HAND animation v finale.mp4):
+  Output stream #0:0 (video): 116 frames encoded; 116 packets muxed (1143539 bytes); 
+  Total: 116 packets (1143539 bytes) muxed
+[AVIOContext @ 00000283798e1b00] Statistics: 1144887 bytes written, 2 seeks, 8 writeouts
+116 frames successfully decoded, 0 decoding errors
+[libx264 @ 00000283798df180] frame I:6     Avg QP:13.32  size: 80512
+[libx264 @ 00000283798df180] frame P:110   Avg QP:17.57  size:  5999
+[libx264 @ 00000283798df180] mb I  I16..4: 53.7%  0.0% 46.3%
+[libx264 @ 00000283798df180] mb P  I16..4:  1.3%  0.0%  1.9%  P16..4:  3.6%  0.8%  0.3%  0.0%  0.0%    skip:92.2%
+[libx264 @ 00000283798df180] coded y,uvDC,uvAC intra: 42.4% 37.7% 21.8% inter: 1.0% 2.5% 0.3%
+[libx264 @ 00000283798df180] i16 v,h,dc,p: 70% 10%  6% 13%
+[libx264 @ 00000283798df180] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 31% 21% 18%  6%  7%  5%  6%  4%  3%
+[libx264 @ 00000283798df180] i8c dc,h,v,p: 68% 14% 15%  3%
+[libx264 @ 00000283798df180] ref P L0: 83.6% 11.2%  5.2%
+[libx264 @ 00000283798df180] kb/s:1891.71
