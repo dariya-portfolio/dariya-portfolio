@@ -8,9 +8,48 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="pace.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
-    <!--Barre de navigation-->
+
+  <!--LOADER-->
+
+        <div id="preloader">
+            <div class="p">LOADING</div>
+        </div>
+
+        <script>
+
+        paceOptions = {
+        ajax: true,
+        document: true,
+        eventLag: false
+        };
+
+        Pace.on('done', function() {
+        $('.p').delay(500).animate({top: '30%', opacity: '0'}, 3000, $.bez([0.19,1,0.22,1]));
+
+
+        $('#preloader').delay(1500).animate({top: '-100%'}, 2000, $.bez([0.19,1,0.22,1]));
+
+        TweenMax.from(".title", 2, {
+             delay: 1.8,
+                  y: 10,
+                  opacity: 0,
+                  ease: Expo.easeInOut
+            })
+       });
+
+      </script>
+
+      <!-- FIN DE LOADER-->
+
+    <!--BARRE DE NAVIGATION-->
 
     <nav class="navbar">
       <ul class="navbar_menu">
@@ -38,10 +77,11 @@
 
       </ul>
     </nav>
-     <!--Fin de barre de navigation-->
+     <!--FIN DE BARRE DE NAVIGATION-->
 
     <main>
-     
+     <!--SECTION ONE-->
+
       <div class="container">
          <section class="one" id="welcome">
 
@@ -51,7 +91,7 @@
           </div>
 
           <div class="middle">
-            <video width="100%" height="100%" controls> <source src="final doxsier/Hand Finale v.mp4"> Welcome</video>
+            <video width="100%" height="100%" controls > <source src="final doxsier/Hand Finale v.mp4"> Welcome</video>
           </div>
         
           <div></div>
@@ -70,7 +110,9 @@
             </p>
             </div> 
         </section>
-          
+        <!--FIN DE SECTION ONE-->
+
+        <!--SECTION TWO-->
           <section class="two" id="observation">
             <div class="parent2">
               <div class="top2"> 
@@ -89,8 +131,10 @@
               </div>
              
               </div>
-
           </section>
+          <!--FIN DE SECTION TWO-->
+
+          <!--SECTION THREE-->
           <section class="three">
             <div class="parent3">
               <div class="left3">
@@ -120,7 +164,9 @@
                 </p>
               </div>
           </section>
-
+          <!--FIN DE SECTION THREE-->
+          
+          <!--SECTION FOUR-->
           <section class="five">
             <div class="parent5">
               <div class="left5"> 
@@ -131,7 +177,9 @@
               </div>
             </div>
           </section>
+          <!--FIN DE SECTION FOUR-->
 
+          <!--SECTION FIVE-->
         
          <section class="six">
           <div class="parent6">
@@ -152,8 +200,10 @@
               </p>
             </div>
           </div>
-
          </section>
+         <!--FIN DE SECTION FIVE-->
+
+         <!--SECTION SIX-->
 
          <section class="seven">
           <div class="parent7">
@@ -170,6 +220,9 @@
             </div>
           </div>
          </section>
+         <!--FIN DE SECTION SIX-->
+
+         <!--SECTION SEVEN-->
 
          <section class="nine">
           <div class="parent9">
@@ -183,12 +236,9 @@
               </div>
               
                <p>Contact: Saidoud818@gmail.com</p>
-  
-              
-
             </div>
-
          </section>
+         <!--FIN DE SECTION SEVEN-->
 
       </div>
     </main>
