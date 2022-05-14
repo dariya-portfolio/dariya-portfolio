@@ -8,18 +8,17 @@
      /*VARIABLES CSS*/
 
 :root{
-    --navbar-item-hovered-color:#f3a0d3af;
-    --navbar-background-color:rgb(182, 229, 238);
-    --navbar-separator-color: rgb(219, 128, 230);
-    --navbar-icon-color:rgb(229, 148, 238);
+    --navbar-item-hovered-color:rgb(99, 172, 222 );
+    --navbar-background-color:rgb(133, 193, 233);
+    --navbar-icon-color: rgb(183, 96, 174);
     --navbar-transition-speed: .2s;
-    --primary-color:rgb(148, 83, 148);
-    --violet:rgb(188, 143, 218);
+    --violet:rgb(103, 58, 183);
     --bleu:rgb(135, 196, 246);
     --vert:rgb(142, 218, 205);
     --rose:rgb(233, 142, 195);
+    --jaune:rgba(230, 202, 90, 0.85);
     --background-color:rgb(137, 142, 211);
-    --separator:rgb(64, 69, 141);
+    --separator:rgb(129, 59, 122);
     --linkcolor:rgb(33, 45, 109);
 }
      /*BASE*/
@@ -113,39 +112,39 @@ section{
 
 } 
 .one{
-    background: linear-gradient(rgb(137, 142, 211),rgb(135, 196, 246));
-    color: var(--bleu);
+    background: linear-gradient(rgb(97, 167, 228),rgb(163, 228, 215 ));
+    color:var(--navbar-icon-color); 
 }
 .two{
-    background: linear-gradient(rgb(135, 196, 246),rgb(142, 218, 205));
+    background: linear-gradient(rgb(163, 228, 215 ),rgb(233, 142, 195));
     color:var(--separator);
 }
 .three{
-    background: linear-gradient(rgb(142, 218, 205),rgb(233, 142, 195)) ;
+    background: linear-gradient(rgb(233, 142, 195),rgb(137, 142, 211)) ;
     color: var(--separator);
 }
 .four{
-    background: linear-gradient(rgb(233, 142, 195),rgb(137, 142, 211));
+    background: linear-gradient(rgb(137, 142, 211),rgb(135, 196, 246));
     color: var(--separator);
 }
 .five{
-    background: linear-gradient(rgb(137, 142, 211),rgb(135, 196, 246));
+    background: linear-gradient(rgb(135, 196, 246),rgb(142, 218, 205));
     color: var(--separator);
 }
 .six{
-    background: linear-gradient(rgb(135, 196, 246),rgb(142, 218, 205));
+    background: linear-gradient(rgb(142, 218, 205),rgb(233, 142, 195));
     color:var(--separator);;
 }
 .seven{
-    background: linear-gradient(rgb(142, 218, 205),rgb(233, 142, 195));
+    background: linear-gradient(rgb(233, 142, 195),rgb(137, 142, 211));
     color: var(--bleu)
 }
 .eight{
-    background: linear-gradient(rgb(233, 142, 195),rgb(137, 142, 211));
+    background: linear-gradient(rgb(137, 142, 211),rgb(135, 196, 246));
     color: var(--bleu);
 }
 .nine{
-    background: linear-gradient(rgb(137, 142, 211),rgb(135, 196, 246));
+    background: linear-gradient(rgb(135, 196, 246),rgb(135, 196, 246));
     color: var(--bleu)    
 }
 
@@ -160,7 +159,7 @@ section{
     left: 0px;
     bottom: 0px;
     background: var(--navbar-background-color);
-    box-shadow: rgb(153, 110, 29) 0 4px 14px ;
+    box-shadow: rgba(69, 51, 16, 0.971) 0 4px 14px ;
     transition: width var(--navbar-transition-speed) ease;
 }
 
@@ -180,24 +179,32 @@ section{
 
 .navbar_item{
     width: 100%;
-    border-bottom: solid 1px var(--navbar-separator-color);
+    border-bottom: solid 1px var(--separator);
+    
 }
 
 .navbar_item:hover{
     background-color: var(--navbar-item-hovered-color);
 }
 
+.navbar_item .navbar_title {
+    color: var(--navbar-icon-color);
+}
+
 .navbar_item:hover .navbar_title{
-    color: var(--primary-color);
+    color: var(--separator);
     font-weight: normal;
     font-style: italic;
     font-family: 'Titillium Web', sans-serif;
     transform: translateY(-0.25rem);
     transition: var(--navbar-transition-speed);
 }
+.navbar_item .navbar_icon{
+    color: var(--navbar-icon-color);
+}
 
 .navbar_item:hover .navbar_icon{
-    color: var(--primary-color);
+    color: var(--separator);
     transform: translateY(-0.25rem);
     transition: var(--navbar-transition-speed);
 }
@@ -218,11 +225,11 @@ section{
     font-size: 1.5rem;
     min-width: 2rem;
     margin: 0 1.5rem;
-    color:var(--navbar-icon-color)
+    color:var(--separator)
 }
 
 .navbar_title{
-    color: var(--navbar-icon-color);
+    color: var(--separator);
     font-weight: bolder;
     font-family: 'Titillium Web', sans-serif;
     
@@ -248,58 +255,50 @@ section{
     grid-row-gap: 0px;
     height: 100%;
     width: 100%;
-    
+    border-bottom: 2px solid rgba(11, 87, 187, 0.628);
    
     }
     
     .top { 
         grid-area: 1 / 1 / 2 / 13;
-        border-bottom: 2px solid var(--separator);
+        border-bottom: 2px solid rgba(11, 87, 187, 0.628);
         display: flex;
         align-items: center;
         justify-content: center;
      }
-   
-    .middle { 
-        grid-area: 2 / 1 / 9 / 10;
-        border-right: 2px solid var(--separator) ;
-        margin-left: 80px;
+    .left{ 
+        grid-area: 2 / 1 / 9 / 5; 
+        margin-left: 90px;
+        border-right: 3px solid rgba(11, 87, 187, 0.628) ;
         
-       
+    }
+
+    .middle { 
+        grid-area: 2 / 5 / 9 / 13;
+        margin: 20px 10px 20px 10px;
+
     }
 
     .middle video {
-        width: 100%;
+        width: 90%;
         height: 100%;
 
     }
 
-    .right{ 
-        grid-area: 2 / 10 / 9 / 13; 
-        
-    }
-
+   
 .top h1{
     align-items: center;
     font-size: 40px;
     font-family: 'Titillium Web', sans-serif;
     letter-spacing: 10px;
-    border-bottom: 4px solid var(--separator);
-    cursor: pointer;
+    border-bottom: 4px solid var(--jaune);
+    cursor: default;
+    color: rgb(20, 134, 222);
 }   
 
-.top h1:hover{
-    color: var(--navbar-item-hovered-color);
-    border-bottom: 4px solid var(--primary-color);
-    transform: translate(0.5rem);
-    transition: .2s;
-}
-
-.right h3{
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    font-size: 25.5555px;
+.left h3{
     margin: 10px 10px 15px 10px;
+    color:rgb(20, 134, 222);
 }
 
 .me{
@@ -307,7 +306,7 @@ section{
     margin: 0px 15px 0px 18px;
     height: 375px;
     width: 300px;
-    border: 7px solid var(--bleu) ;
+    border: 7px solid rgb(219, 196, 91) ;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -323,12 +322,12 @@ section{
 .mot{
     padding: 5px 10px 5px 0px;
     margin: 5px 12px 5px 10px;
-    color:var(--separator);
     font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 95%;
 }
 
 .me:hover{
-    border: 7px solid var(--violet);
+    border: 7px solid rgb(77, 122, 213);
     transform: translate(0.5rem);
     transition: .2s;
     cursor: pointer;  
@@ -337,6 +336,7 @@ section{
     width: 100%;
     height: 100%;
     margin:5px 10px 5px 10px ;
+    color: rgb(77, 122, 213);
 }
 
 
@@ -356,21 +356,21 @@ section{
     
     .top2 {
         grid-area: 1 / 1 / 2 / 13;
-        border-bottom: 2px solid var(--separator);
+        border-bottom: 2px solid rgba(11, 87, 187, 0.628);
         display: flex;
         align-items: center;
         justify-content: center;
      }
     .left2 { 
         grid-area: 2 / 1 / 8 / 7; 
-        border: 2px solid var(--separator) ;
+        border: 2px solid rgba(11, 87, 187, 0.628) ;
         margin: 8px; 
         margin-left: 80px;
        
     }
     .right2 { 
         grid-area: 2 / 7 / 8 / 13;
-        border: 2px solid var(--separator) ;
+        border: 2px solid rgba(11, 87, 187, 0.628) ;
         margin: 8px;
         
     }
@@ -378,7 +378,7 @@ section{
         grid-area: 8 / 5 / 9 / 9;
         border: 2px solid var(--separator);
         margin: 8px;
-        background: var(--rose);
+        background: rgba(121, 221, 235, 0.837);
         border-radius: 20px;
     }
    
@@ -386,7 +386,7 @@ section{
     .top2 h1{
         font-size: 33px;
         letter-spacing: 2px;
-        color: rgb(90, 170, 197);
+        color: rgba(64, 124, 144, 0.759);
         border-bottom: rgb(64, 124, 144) solid 3px;
     }
 
@@ -416,7 +416,7 @@ section{
 
 .left3{
     grid-area: 1 / 1 / 9 / 13;
-    border: 2px solid rgb(64, 124, 144) ;
+    border: 2px solid var(--separator) ;
     margin: 30px 20px 30px 80px;
 
 }
@@ -443,7 +443,7 @@ section{
     
     .top4 { 
         grid-area: 1 / 1 / 2 / 13;
-        border-bottom: 2px solid var(--separator);
+        border-bottom: 2px solid var(--violet);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -488,13 +488,15 @@ section{
         grid-area: 8 / 4 / 9 / 10;
         border: 2px solid var(--separator) ;
         margin: 8px;
-        background: var(--primary-color);
+        background:var(--rose);
         border-radius: 20px; 
     }
 
 .top4 h1{
     font-size: 33px;
     letter-spacing: 2px;
+    border-bottom: 4px solid rgba(81, 39, 92, 0.588);
+    color: rgba(81, 39, 92, 0.588) ;
 }
 
 .left4 img{
@@ -528,7 +530,7 @@ section{
 
 .left5{
     grid-area: 1 / 2 / 9 / 7;
-    border: 2px solid var(--separator) ;
+    border: 4px solid rgba(11, 87, 187, 0.628) ;
     margin: 10px 8px 20px 0px;
     overflow: hidden;
     border-radius: 15px;
@@ -536,7 +538,7 @@ section{
 }
 .right5{
     grid-area: 1 / 8 / 9 / 13;
-    border: 2px solid var(--separator) ;
+    border: 4px solid rgba(11, 87, 187, 0.628) ;
     margin: 20px 20px 40px 20px;
     overflow: hidden;
     border-radius: 15px;
@@ -589,6 +591,7 @@ section{
         grid-area: 1 / 8 / 4 / 12;
         border: 2px solid var(--separator) ;
         margin: 40px;
+        font-size: 95%;
         background: var(--rose);
         border-radius: 20px; 
     }
@@ -647,7 +650,7 @@ section{
     
     .middle8 { 
         grid-area: 2 / 3 / 12 / 11;
-        border: 5px solid var(--separator);
+        border: 5px solid rgba(11, 87, 187, 0.628);
         margin: 8px; 
     }
     .middle8 img{
